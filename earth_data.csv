@@ -1,0 +1,162 @@
+*******************************************************************************
+ Revised: April 12, 2021                 Earth                              399
+ 
+ GEOPHYSICAL PROPERTIES (revised May 9, 2022):
+  Vol. Mean Radius (km)    = 6371.01+-0.02   Mass x10^24 (kg)= 5.97219+-0.0006
+  Equ. radius, km          = 6378.137        Mass layers:
+  Polar axis, km           = 6356.752          Atmos         = 5.1   x 10^18 kg
+  Flattening               = 1/298.257223563   oceans        = 1.4   x 10^21 kg
+  Density, g/cm^3          = 5.51              crust         = 2.6   x 10^22 kg
+  J2 (IERS 2010)           = 0.00108262545     mantle        = 4.043 x 10^24 kg
+  g_p, m/s^2  (polar)      = 9.8321863685      outer core    = 1.835 x 10^24 kg
+  g_e, m/s^2  (equatorial) = 9.7803267715      inner core    = 9.675 x 10^22 kg
+  g_o, m/s^2               = 9.82022         Fluid core rad  = 3480 km
+  GM, km^3/s^2             = 398600.435436   Inner core rad  = 1215 km
+  GM 1-sigma, km^3/s^2     =      0.0014     Escape velocity = 11.186 km/s
+  Rot. Rate (rad/s)        = 0.00007292115   Surface area:
+  Mean sidereal day, hr    = 23.9344695944     land          = 1.48 x 10^8 km
+  Mean solar day 2000.0, s = 86400.002         sea           = 3.62 x 10^8 km
+  Mean solar day 1820.0, s = 86400.0         Love no., k2    = 0.299
+  Moment of inertia        = 0.3308          Atm. pressure   = 1.0 bar
+  Mean surface temp (Ts), K= 287.6           Volume, km^3    = 1.08321 x 10^12
+  Mean effect. temp (Te), K= 255             Magnetic moment = 0.61 gauss Rp^3
+  Geometric albedo         = 0.367           Vis. mag. V(1,0)= -3.86
+  Solar Constant (W/m^2)   = 1367.6 (mean), 1414 (perihelion), 1322 (aphelion)
+ HELIOCENTRIC ORBIT CHARACTERISTICS:
+  Obliquity to orbit, deg  = 23.4392911  Sidereal orb period  = 1.0000174 y
+  Orbital speed, km/s      = 29.79       Sidereal orb period  = 365.25636 d
+  Mean daily motion, deg/d = 0.9856474   Hill's sphere radius = 234.9       
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Fri Mar  3 12:18:52 2023 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Earth (399)                     {source: DE441}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: (user defined site below)
+*******************************************************************************
+Start time      : A.D. 2022-Nov-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2022-Dec-12 00:00:00.0000 TDB
+Step-size       : 1440 minutes
+*******************************************************************************
+Center geodetic : 286.0058, 40.7517, -2.02709E-12 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 286.0058, 4838.6361, 4141.57364 {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 1 (position only)
+EOP file        : eop.230301.p230525
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2023-MAR-01. PREDICTS-> 2023-MAY-24
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,
+**************************************************************************************************************************
+$$SOE
+2459884.500000000, A.D. 2022-Nov-01 00:00:00.0000, -4.005831603008850E+03,  8.582049899705275E+02, -4.876661649680272E+03,
+2459885.500000000, A.D. 2022-Nov-02 00:00:00.0000, -4.052155203566426E+03,  7.947991004950811E+02, -4.849058060902016E+03,
+2459886.500000000, A.D. 2022-Nov-03 00:00:00.0000, -4.097281866381989E+03,  7.306704585731079E+02, -4.821144415003866E+03,
+2459887.500000000, A.D. 2022-Nov-04 00:00:00.0000, -4.141198328003995E+03,  6.658383539775889E+02, -4.792928872458509E+03,
+2459888.500000000, A.D. 2022-Nov-05 00:00:00.0000, -4.183891794309827E+03,  6.003221904985971E+02, -4.764419608204021E+03,
+2459889.500000000, A.D. 2022-Nov-06 00:00:00.0000, -4.225349885206677E+03,  5.341414643641735E+02, -4.735624850594468E+03,
+2459890.500000000, A.D. 2022-Nov-07 00:00:00.0000, -4.265560554949263E+03,  4.673157337328153E+02, -4.706552946584557E+03,
+2459891.500000000, A.D. 2022-Nov-08 00:00:00.0000, -4.304512064701124E+03,  3.998646264952033E+02, -4.677212379960676E+03,
+2459892.500000000, A.D. 2022-Nov-09 00:00:00.0000, -4.342192957038258E+03,  3.318079076711217E+02, -4.647611786519110E+03,
+2459893.500000000, A.D. 2022-Nov-10 00:00:00.0000, -4.378592070508515E+03,  2.631654595791579E+02, -4.617759944269680E+03,
+2459894.500000000, A.D. 2022-Nov-11 00:00:00.0000, -4.413698541581820E+03,  1.939573820302987E+02, -4.587665768114711E+03,
+2459895.500000000, A.D. 2022-Nov-12 00:00:00.0000, -4.447501839416725E+03,  1.242040255131146E+02, -4.557338283512455E+03,
+2459896.500000000, A.D. 2022-Nov-13 00:00:00.0000, -4.479991809592739E+03,  5.392597729605700E+01, -4.526786592815232E+03,
+2459897.500000000, A.D. 2022-Nov-14 00:00:00.0000, -4.511158691324224E+03, -1.685595895599226E+01, -4.496019864310510E+03,
+2459898.500000000, A.D. 2022-Nov-15 00:00:00.0000, -4.540993138825931E+03, -8.812077900436884E+01, -4.465047314797522E+03,
+2459899.500000000, A.D. 2022-Nov-16 00:00:00.0000, -4.569486256321750E+03, -1.598472881066100E+02, -4.433878176011229E+03,
+2459900.500000000, A.D. 2022-Nov-17 00:00:00.0000, -4.596629588688209E+03, -2.320141232299543E+02, -4.402521703859617E+03,
+2459901.500000000, A.D. 2022-Nov-18 00:00:00.0000, -4.622415122636687E+03, -3.045997654033797E+02, -4.370987176699672E+03,
+2459902.500000000, A.D. 2022-Nov-19 00:00:00.0000, -4.646835304696067E+03, -3.775825500839694E+02, -4.339283875346182E+03,
+2459903.500000000, A.D. 2022-Nov-20 00:00:00.0000, -4.669883036936009E+03, -4.509407086383449E+02, -4.307421082337685E+03,
+2459904.500000000, A.D. 2022-Nov-21 00:00:00.0000, -4.691551681314481E+03, -5.246524156129738E+02, -4.275408067808709E+03,
+2459905.500000000, A.D. 2022-Nov-22 00:00:00.0000, -4.711835037544797E+03, -5.986958277032984E+02, -4.243254101134288E+03,
+2459906.500000000, A.D. 2022-Nov-23 00:00:00.0000, -4.730727305888464E+03, -6.730491288681710E+02, -4.210968476418241E+03,
+2459907.500000000, A.D. 2022-Nov-24 00:00:00.0000, -4.748223002646230E+03, -7.476905624067979E+02, -4.178560592113760E+03,
+2459908.500000000, A.D. 2022-Nov-25 00:00:00.0000, -4.764316913870971E+03, -8.225983880676002E+02, -4.146040004400420E+03,
+2459909.500000000, A.D. 2022-Nov-26 00:00:00.0000, -4.779004081418901E+03, -8.977507678883976E+02, -4.113416466937715E+03,
+2459910.500000000, A.D. 2022-Nov-27 00:00:00.0000, -4.792279848430153E+03, -9.731256851195104E+02, -4.080699907764355E+03,
+2459911.500000000, A.D. 2022-Nov-28 00:00:00.0000, -4.804139970791305E+03, -1.048700842575391E+03, -4.047900340394272E+03,
+2459912.500000000, A.D. 2022-Nov-29 00:00:00.0000, -4.814580713712344E+03, -1.124453698603111E+03, -4.015027759902043E+03,
+2459913.500000000, A.D. 2022-Nov-30 00:00:00.0000, -4.823598909420048E+03, -1.200361547261266E+03, -3.982092063078823E+03,
+2459914.500000000, A.D. 2022-Dec-01 00:00:00.0000, -4.831191986731710E+03, -1.276401627306141E+03, -3.949102981068817E+03,
+2459915.500000000, A.D. 2022-Dec-02 00:00:00.0000, -4.837357887221789E+03, -1.352551194933898E+03, -3.916070149774280E+03,
+2459916.500000000, A.D. 2022-Dec-03 00:00:00.0000, -4.842095004758771E+03, -1.428787608798936E+03, -3.883003143929948E+03,
+2459917.500000000, A.D. 2022-Dec-04 00:00:00.0000, -4.845402136784623E+03, -1.505088288118770E+03, -3.849911539210713E+03,
+2459918.500000000, A.D. 2022-Dec-05 00:00:00.0000, -4.847278466561899E+03, -1.581430737103902E+03, -3.816804916849356E+03,
+2459919.500000000, A.D. 2022-Dec-06 00:00:00.0000, -4.847723506946416E+03, -1.657792510139778E+03, -3.783692941487282E+03,
+2459920.500000000, A.D. 2022-Dec-07 00:00:00.0000, -4.846737128167475E+03, -1.734151201030193E+03, -3.750585328231516E+03,
+2459921.500000000, A.D. 2022-Dec-08 00:00:00.0000, -4.844319565341422E+03, -1.810484371195486E+03, -3.717491865820862E+03,
+2459922.500000000, A.D. 2022-Dec-09 00:00:00.0000, -4.840471413811746E+03, -1.886769594160867E+03, -3.684422406912439E+03,
+2459923.500000000, A.D. 2022-Dec-10 00:00:00.0000, -4.835193681369767E+03, -1.962984378687458E+03, -3.651386842640476E+03,
+2459924.500000000, A.D. 2022-Dec-11 00:00:00.0000, -4.828487798977162E+03, -2.039106191768403E+03, -3.618395085636382E+03,
+2459925.500000000, A.D. 2022-Dec-12 00:00:00.0000, -4.820355641191604E+03, -2.115112461900116E+03, -3.585457048673735E+03,
+$$EOE
+**************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
