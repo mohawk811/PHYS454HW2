@@ -1,0 +1,228 @@
+*******************************************************************************
+ Revised: Feb 05, 2023   ARTEMIS-P1 Spacecraft (THEMIS-B) / (Moon)         -192
+           http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2007-004B
+
+ OVERVIEW:
+  "Time History of Events and Macroscale Interactions during Substorms"
+  (THEMIS) was launched 2007-Feb-17 23:01 UTC from Cape Canaveral (USA) using 
+  a Delta II 7925-10C launch vehicle.
+
+  Originally part of a constellation of five satellites orbiting the Earth to 
+  study the evolution of magnetospheric substorms, elements P1 and P2 were 
+  repurposed to study the lunar environment in 2009 and renamed ARTEMIS-P1 and
+  ARTEMIS-P2. ("Acceleration, Reconnection, Turbulence and Electrodynamics of 
+  the Moon's Interaction with the Sun")
+
+  ARTEMIS-P1 reached the Earth-Moon L2 Lagrange point on 25 August 2010, and 
+  on June 22 of 2011 was moved toward an equatorial lunar orbit (achieved 
+  2011-June-27) with a periapsis altitude of approximately 100 km, apoapsis of
+  19000 km, and period of 26 hours. 
+
+ OBJECTIVES:
+  The objectives of the repurposed ARTEMIS mission are to study how particles 
+  are accelerated at reconnection sites and shocks, how turbulence develops 
+  and evolves in Earth's magnetotail and in the solar wind, and the structure, 
+  formation, refilling, and downstream evolution of the lunar wake and particle
+  acceleration processes within it.
+
+ SPACECRAFT:
+  Launch mass  : 630 kg
+  Dry mass     : 77 kg
+  Nominal power: 37 W
+  Telemetry    : 4.63 kbps
+
+ INSTRUMENTS:
+  Fluxgate Magnetometer (FGM)
+  Electrostatic Analyzer (ESA)
+  Solid-State Telescope (SST)
+  Search Coil Magnetometer (SCM)
+  Electric Field Instrument (EFI)
+
+ TRAJECTORY:
+  The ARTEMIS-P1 spacecraft was the first to orbit an Earth-Moon Lagrange 
+  point (L2) and the first to orbit BOTH Earth-Moon L1 and L2 points.
+
+  Trajectory after 2022-Feb-04 is a set of periodically updated (tag-up)
+  solutions. Tracking data involved through Feb 3, predicts thereafter.
+
+ Trajectory name                                     Start          Stop
+ -----------------------------------------------   -----------   -----------
+ THEMIS_B_definitive_trajectory_20[07-21]          2007-Feb-18   2022-Jan-04 
+ 192.THEMIS_B.SHORT_TERM.*.oem.V0.1                2022-Jan-04   2023-Mar-05
+******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Fri Mar  3 06:58:24 2023 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: THEMIS-B (spacecraft) (-192)    {source: THEMIS-B_merged}
+Center body name: Earth (399)                     {source: DE441}
+Center-site name: (user defined site below)
+*******************************************************************************
+Start time      : A.D. 2022-Nov-01 00:00:00.0000 TDB
+Stop  time      : A.D. 2022-Dec-12 00:00:00.0000 TDB
+Step-size       : 1440 minutes
+*******************************************************************************
+Center geodetic : 286.0058, 40.7517, -2.02709E-12 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 286.0058, 4838.6361, 4141.57364 {E-lon(deg),Dxy(km),Dz(km)}
+Center pole/equ : ITRF93                          {East-longitude positive}
+Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 1 (position only)
+EOP file        : eop.230301.p230525
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2023-MAR-01. PREDICTS-> 2023-MAY-24
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+JDTDB
+   X     Y     Z
+*******************************************************************************
+$$SOE
+2459884.500000000 = A.D. 2022-Nov-01 00:00:00.0000 TDB 
+ X = 2.111800731860606E+05 Y =-3.175187274420247E+05 Z =-3.997868049723853E+04
+2459885.500000000 = A.D. 2022-Nov-02 00:00:00.0000 TDB 
+ X = 2.804915329895368E+05 Y =-2.574597275439740E+05 Z =-4.037727740455877E+04
+2459886.500000000 = A.D. 2022-Nov-03 00:00:00.0000 TDB 
+ X = 3.335033869414136E+05 Y =-1.829460915680389E+05 Z =-3.877386656354017E+04
+2459887.500000000 = A.D. 2022-Nov-04 00:00:00.0000 TDB 
+ X = 3.675160211964984E+05 Y =-9.837792680894384E+04 Z =-3.529285129700233E+04
+2459888.500000000 = A.D. 2022-Nov-05 00:00:00.0000 TDB 
+ X = 3.810285383926077E+05 Y =-8.559137450879374E+03 Z =-3.016044194466911E+04
+2459889.500000000 = A.D. 2022-Nov-06 00:00:00.0000 TDB 
+ X = 3.737448409618944E+05 Y = 8.163582100921862E+04 Z =-2.368240175216761E+04
+2459890.500000000 = A.D. 2022-Nov-07 00:00:00.0000 TDB 
+ X = 3.464830661698246E+05 Y = 1.675700457723101E+05 Z =-1.621503144922138E+04
+2459891.500000000 = A.D. 2022-Nov-08 00:00:00.0000 TDB 
+ X = 3.009858697280784E+05 Y = 2.451056365748803E+05 Z =-8.131089209854108E+03
+2459892.500000000 = A.D. 2022-Nov-09 00:00:00.0000 TDB 
+ X = 2.395547168419376E+05 Y = 3.107972826270273E+05 Z = 2.397836638197768E+02
+2459893.500000000 = A.D. 2022-Nov-10 00:00:00.0000 TDB 
+ X = 1.639482204866323E+05 Y = 3.613878677474802E+05 Z = 8.794695765695913E+03
+2459894.500000000 = A.D. 2022-Nov-11 00:00:00.0000 TDB 
+ X = 7.889790009515478E+04 Y = 3.890131714487572E+05 Z = 1.690022321770160E+04
+2459895.500000000 = A.D. 2022-Nov-12 00:00:00.0000 TDB 
+ X =-6.262028855100029E+03 Y = 3.969390309781656E+05 Z = 2.324435058841997E+04
+2459896.500000000 = A.D. 2022-Nov-13 00:00:00.0000 TDB 
+ X =-9.020042133090440E+04 Y = 3.872244687185453E+05 Z = 2.812060862400246E+04
+2459897.500000000 = A.D. 2022-Nov-14 00:00:00.0000 TDB 
+ X =-1.698058292212166E+05 Y = 3.602071856485537E+05 Z = 3.146405720174695E+04
+2459898.500000000 = A.D. 2022-Nov-15 00:00:00.0000 TDB 
+ X =-2.417318010081960E+05 Y = 3.169525551496376E+05 Z = 3.317342459535701E+04
+2459899.500000000 = A.D. 2022-Nov-16 00:00:00.0000 TDB 
+ X =-3.028155977461563E+05 Y = 2.591792992156273E+05 Z = 3.318312427233651E+04
+2459900.500000000 = A.D. 2022-Nov-17 00:00:00.0000 TDB 
+ X =-3.502034816410004E+05 Y = 1.891954412322716E+05 Z = 3.147921953882343E+04
+2459901.500000000 = A.D. 2022-Nov-18 00:00:00.0000 TDB 
+ X =-3.814372578627367E+05 Y = 1.098692095133747E+05 Z = 2.810716744212876E+04
+2459902.500000000 = A.D. 2022-Nov-19 00:00:00.0000 TDB 
+ X =-3.945571330085458E+05 Y = 2.461477003791158E+04 Z = 2.317984806810060E+04
+2459903.500000000 = A.D. 2022-Nov-20 00:00:00.0000 TDB 
+ X =-3.882387897248087E+05 Y =-6.263599075484795E+04 Z = 1.688251296562190E+04
+2459904.500000000 = A.D. 2022-Nov-21 00:00:00.0000 TDB 
+ X =-3.619768004666730E+05 Y =-1.474997824358871E+05 Z = 9.483950574831375E+03
+2459905.500000000 = A.D. 2022-Nov-22 00:00:00.0000 TDB 
+ X =-3.162907974196250E+05 Y =-2.252957911551927E+05 Z = 1.336885721938510E+03
+2459906.500000000 = A.D. 2022-Nov-23 00:00:00.0000 TDB 
+ X =-2.529124833070391E+05 Y =-2.913101668665952E+05 Z =-7.127604660302051E+03
+2459907.500000000 = A.D. 2022-Nov-24 00:00:00.0000 TDB 
+ X =-1.748880133029133E+05 Y =-3.411806473261329E+05 Z =-1.542073489510153E+04
+2459908.500000000 = A.D. 2022-Nov-25 00:00:00.0000 TDB 
+ X =-8.651715363617812E+04 Y =-3.713601038645499E+05 Z =-2.303210013639237E+04
+2459909.500000000 = A.D. 2022-Nov-26 00:00:00.0000 TDB 
+ X = 6.919059967225695E+03 Y =-3.795650904775970E+05 Z =-2.947797921646817E+04
+2459910.500000000 = A.D. 2022-Nov-27 00:00:00.0000 TDB 
+ X = 9.962570214147336E+04 Y =-3.650896015206310E+05 Z =-3.434964045973233E+04
+2459911.500000000 = A.D. 2022-Nov-28 00:00:00.0000 TDB 
+ X = 1.858581423693436E+05 Y =-3.288947338932958E+05 Z =-3.735654991055827E+04
+2459912.500000000 = A.D. 2022-Nov-29 00:00:00.0000 TDB 
+ X = 2.604602480254121E+05 Y =-2.734584400092710E+05 Z =-3.834692519038593E+04
+2459913.500000000 = A.D. 2022-Nov-30 00:00:00.0000 TDB 
+ X = 3.192668856694949E+05 Y =-2.024468007787968E+05 Z =-3.731036792939635E+04
+2459914.500000000 = A.D. 2022-Dec-01 00:00:00.0000 TDB 
+ X = 3.593287394941500E+05 Y =-1.203039066180533E+05 Z =-3.436409101604659E+04
+2459915.500000000 = A.D. 2022-Dec-02 00:00:00.0000 TDB 
+ X = 3.789742208962832E+05 Y =-3.184617107862078E+04 Z =-2.972993494007561E+04
+2459916.500000000 = A.D. 2022-Dec-03 00:00:00.0000 TDB 
+ X = 3.777524368211701E+05 Y = 5.808935935005596E+04 Z =-2.370685116075903E+04
+2459917.500000000 = A.D. 2022-Dec-04 00:00:00.0000 TDB 
+ X = 3.562925081881591E+05 Y = 1.449283772069087E+05 Z =-1.664232895084561E+04
+2459918.500000000 = A.D. 2022-Dec-05 00:00:00.0000 TDB 
+ X = 3.160965678315550E+05 Y = 2.245781513902267E+05 Z =-8.901501576963681E+03
+2459919.500000000 = A.D. 2022-Dec-06 00:00:00.0000 TDB 
+ X = 2.591746250751461E+05 Y = 2.935890048841435E+05 Z =-8.197843000359426E+02
+2459920.500000000 = A.D. 2022-Dec-07 00:00:00.0000 TDB 
+ X = 1.867808728473658E+05 Y = 3.485560779772700E+05 Z = 7.467606191060477E+03
+2459921.500000000 = A.D. 2022-Dec-08 00:00:00.0000 TDB 
+ X = 1.036801985821105E+05 Y = 3.810881259688704E+05 Z = 1.540137945675835E+04
+2459922.500000000 = A.D. 2022-Dec-09 00:00:00.0000 TDB 
+ X = 1.893452362663937E+04 Y = 3.944743457898275E+05 Z = 2.192550712566840E+04
+2459923.500000000 = A.D. 2022-Dec-10 00:00:00.0000 TDB 
+ X =-6.589883230995465E+04 Y = 3.902864331150171E+05 Z = 2.712758336609867E+04
+2459924.500000000 = A.D. 2022-Dec-11 00:00:00.0000 TDB 
+ X =-1.476012191829559E+05 Y = 3.687052740258602E+05 Z = 3.089008568214964E+04
+2459925.500000000 = A.D. 2022-Dec-12 00:00:00.0000 TDB 
+ X =-2.227327250541175E+05 Y = 3.306412399419901E+05 Z = 3.309096988182071E+04
+$$EOE
+*******************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
